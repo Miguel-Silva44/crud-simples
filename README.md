@@ -46,7 +46,5 @@ Caso queira testar e ver a documenação da API via swagger, utilize o endpoints
 - **Frontend:** HTML, CSS e JavaScript
 - **Containerização:** Docker e Docker Compose
 
----
 
-Agora o seu projeto está pronto para ser utilizado! 🚀
 
