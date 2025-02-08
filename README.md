@@ -35,7 +35,7 @@ http://localhost:8080/
 ```
 
 ## 📜 Endpoints da API
-Caso queira testar ver a documenação da API via swagger, utilize o endpoints abaixo:
+Caso queira testar e ver a documenação da API via swagger, utilize o endpoints abaixo:
   ```sh
   http://localhost:8080/swagger-ui/index.html
   ```
