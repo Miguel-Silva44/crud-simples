@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <button id="themeSwitcher" class="theme-btn">Modo Escuro</button>
+    <h1>Formulário de Cadastro</h1>
+    <form id="cadastroForm">
+        <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Endereço</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Número de Celular</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <div id="mensagemSucesso" class="hidden">
+        <p>Pedido Enviado! Aguarde confirmação de envio.</p>
+        <button id="voltarBtn">Voltar</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

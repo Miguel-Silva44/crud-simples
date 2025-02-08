@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--fontColor);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    background: var(--formBg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--fontColor);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: var(--inputFontColor);
+    background-color: var(--inputBg);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+#mensagemSucesso {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+#voltarBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#voltarBtn:hover {
+    background-color: #45a049;
+}
+
+.theme-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-btn:hover {
+    background-color: #516e53;
+}
+
+:root {
+    --bg: #f0f0f0;
+    --fontColor: #000000;
+    --formBg: #ffffff;
+    --inputBg: #ffffff;
+    --inputFontColor: #000000;
+}
+
+.light-theme {
+    --bg: #f0f0f0;
+    --fontColor: #000000;
+    --formBg: #ffffff;
+    --inputBg: #ffffff;
+    --inputFontColor: #000000;
+}
+
+.dark-theme {
+    --bg: #000000;
+    --fontColor: #ffffff;
+    --formBg: #202020;
+    --inputBg: #252424;
+    --inputFontColor: #ffffff;
+}
