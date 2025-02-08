@@ -35,23 +35,9 @@ http://localhost:8080/
 ```
 
 ## 📜 Endpoints da API
-Caso queira testar a API via Postman ou outra ferramenta, utilize os endpoints abaixo:
-
-- **Criar usuário** (POST)
+Caso queira testar ver a documenação da API via swagger, utilize o endpoints abaixo:
   ```sh
-  POST http://localhost:8080/api/user
-  Content-Type: application/json
-  {
-    "name": "Miguel",
-    "address": "Rua X, 123",
-    "email": "miguel@email.com",
-    "phone": "99999-9999"
-  }
-  ```
-
-- **Listar usuários** (GET)
-  ```sh
-  GET http://localhost:8080/api/user
+  http://localhost:8080/swagger-ui/index.html
   ```
 
 ## 🛠 Tecnologias Utilizadas
